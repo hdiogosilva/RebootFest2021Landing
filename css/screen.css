@@ -1027,6 +1027,18 @@ a.fn-item.active {
     #logo {
         font-size: 2em;
     }
+    
+    #down-right {
+        margin: 0 auto;
+    }
+    
+    #down-left {
+        position: initial;
+        padding: 20px;
+        bottom: 4em;
+        margin: 0 auto;
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -1138,7 +1150,21 @@ a.fn-item.active {
   }
 
   #logo {
-  font-size: 2em;
+    font-size: 2em;
+  }
+  
+  #down-right {
+    margin: 0 auto;
+    padding: 0px 0px 10px 0px;
+    width: 100%;
+  }
+  
+  #down-left {
+    margin: 0 auto;
+    bottom: 7em;
+  }
+  #down-left p {
+    font-size: 20px;
   }
 }
 
