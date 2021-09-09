@@ -445,7 +445,8 @@
 }
 
 .custom-font {
-    font-family: 'Open Sans Condensed', sans-serif !important;;
+    font-family: 'Roboto Slab', sans-serif !important;
+    letter-spacing: -2px !important;
 }
  
 #container {
@@ -812,6 +813,4 @@
     opacity: 0.25;
   }
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
  
