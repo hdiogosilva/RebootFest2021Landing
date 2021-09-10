@@ -261,7 +261,7 @@ hr {
 blockquote {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 1em 0 1em -2.2em;
+  /*margin: 1em 0 1em -2.2em;*/
   padding: 0 0 0 1em;
   /*border-left: #4a4a4a 0.4em solid;*/
   font-weight: lighter;
@@ -815,7 +815,7 @@ a.fn-item.active {
   line-height: 1.5em;
   color: #bbc7cc;
   text-align: center;
-  background: #22343a;
+  background: #f2efe8;
 }
 
 .site-footer a {
