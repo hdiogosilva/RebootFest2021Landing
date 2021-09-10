@@ -1186,7 +1186,21 @@ a.fn-item.active {
     .pagination {
         top: -40px;
     }
-    
+}
+
+@media only screen and (max-height: 550px) {
+    #social {
+        display: none;
+    }
+    h2.custom-logo-font.blog-description {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    a.btn.site-menu.custom-font {
+        display: none;
+    }
 }
 
 /* ==========================================================================
