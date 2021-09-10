@@ -1037,7 +1037,7 @@ a.fn-item.active {
         padding: 20px;
         bottom: 4em;
         margin: 0 auto;
-        width: 50%;
+        width: 70%;
     }
 }
 
@@ -1173,6 +1173,20 @@ a.fn-item.active {
         width: 100%;
         font-size: 1em;
     }
+}
+
+@media only screen and (max-width: 400px) {
+    a.btn {
+        font-size: inherit;
+    }
+    #info {
+        margin-top: unset;
+    }
+    .inner,
+    .pagination {
+        top: -40px;
+    }
+    
 }
 
 /* ==========================================================================
