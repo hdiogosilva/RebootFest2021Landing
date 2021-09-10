@@ -1168,7 +1168,11 @@ a.fn-item.active {
   }
   .site-footer .inner{
       top: 0px !important;
-}
+  }
+  #social {
+        width: 100%;
+        font-size: 1em;
+    }
 }
 
 /* ==========================================================================
