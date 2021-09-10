@@ -1166,6 +1166,9 @@ a.fn-item.active {
   #down-left p {
     font-size: 20px;
   }
+  .site-footer .inner{
+      top: 0px !important;
+}
 }
 
 /* ==========================================================================
