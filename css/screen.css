@@ -1017,27 +1017,45 @@ a.fn-item.active {
     #logo {
         font-size: 3em;
     }
+    #social {
+        padding: 20px 0px 20px 20px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
     .inner {
         width: auto;
     }
-    
     #logo {
         font-size: 2em;
     }
-    
+    #info{
+        font-size: 20px;
+    }
+    #infoLeft{
+        font-size: 20px;
+        padding: 0;
+    }
+    #down-left {
+        position: relative;
+        bottom: -30px;
+        margin: 0 auto;
+        font-size: 2em;
+    }
     #down-right {
         margin: 0 auto;
+        font-size: 2em;
     }
     
-    #down-left {
+    #left-up {
         position: initial;
         padding: 20px;
         bottom: 4em;
         margin: 0 auto;
         width: 70%;
+    }
+    div#site-head-content {
+        top: -30px;
     }
 }
 
@@ -1152,18 +1170,26 @@ a.fn-item.active {
   #logo {
     font-size: 2em;
   }
-  
+  #down-left {
+    bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 0px 10px 0px;
+    width: 100%;
+    font-size: 1em;
+  }
   #down-right {
     margin: 0 auto;
     padding: 0px 0px 10px 0px;
     width: 100%;
+    font-size: 1em;
   }
   
-  #down-left {
+  #left-up {font-size: 1em;
     margin: 0 auto;
     bottom: 7em;
   }
-  #down-left p {
+  #left-up p {
     font-size: 20px;
   }
   .site-footer .inner{
@@ -1173,6 +1199,10 @@ a.fn-item.active {
         width: 100%;
         font-size: 1em;
     }
+  #btnCallLeft {
+    padding: 5px;
+    margin: 5px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -1182,17 +1212,25 @@ a.fn-item.active {
     #info {
         margin-top: unset;
     }
+    #social {
+        /*display: none;*/
+    }
     .inner,
     .pagination {
         top: -40px;
     }
 }
 
-@media only screen and (max-width: 270px) {
+@media only screen and (max-width: 320px) {
     h2.custom-logo-font.blog-description {
         display: none;
     }
+    #social {
+        display: none !important;
+    }
 }
+
+
 
 @media only screen and (max-height: 550px) {
     #social {

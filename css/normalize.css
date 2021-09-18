@@ -411,11 +411,25 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding: 20px 0px 20px 20px;
+    padding: 20px 20px 20px 20px;
     font-size: 2em;
 }
    
 #down-left {
+    position: absolute;
+    bottom: 0px;
+    text-align: left;
+    /*border-left: 3px dashed #fe3900;*/
+    padding: 5px;
+    margin: 10px;
+}
+
+#btnCallLeft {
+    padding: 5px;
+    margin: 10px;
+}
+
+#left-up {
     position: absolute;
     padding: 20px;
     bottom: 4em;
@@ -430,7 +444,7 @@
   border-radius: 6px;
   -webkit-border-radius: 6px;
   color: white;
-  display: inline-block;
+  /*display: inline-block;*/
   font-size: 30px;
   letter-spacing: 1px;
   margin: 0;
@@ -438,6 +452,23 @@
   /*padding: 10px 20px 10px 20px;*/
   position: relative;
   margin-top: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#infoLeft {
+  text-decoration: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  color: white;
+  /*display: inline-block;*/
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 0;
+  overflow: visible;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+/*  margin-top: 2rem;*/
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -837,4 +868,12 @@
     opacity: 0.25;
   }
 }
- 
+
+  /* ==========================================================================
+    DMDS
+    ========================================================================== */
+
+main.content.page-template.page- {
+    background-color: #f2efe8;
+}
+
