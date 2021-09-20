@@ -1056,6 +1056,7 @@ a.fn-item.active {
     }
     div#site-head-content {
         top: -30px;
+        margin-bottom: 10px;
     }
 }
 
@@ -1088,7 +1089,7 @@ a.fn-item.active {
 
   #site-head {
     padding: 10% 0;
-    height: 65%;
+    height: 75%;
   }
   #header-arrow {
     display: none;
@@ -1171,10 +1172,10 @@ a.fn-item.active {
     font-size: 2em;
   }
   #down-left {
-    bottom: 20px;
+    bottom: 40px;
     text-align: center;
     margin: 0 auto;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 30px 0px;
     width: 100%;
     font-size: 1em;
   }
