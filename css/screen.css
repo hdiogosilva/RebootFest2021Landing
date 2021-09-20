@@ -1171,7 +1171,7 @@ a.fn-item.active {
     font-size: 2em;
   }
   #down-left {
-    bottom: 30px;
+    bottom: 20px;
     text-align: center;
     margin: 0 auto;
     padding: 0px 0px 10px 0px;
@@ -1185,7 +1185,8 @@ a.fn-item.active {
     font-size: 1em;
   }
   
-  #left-up {font-size: 1em;
+  #left-up {
+    font-size: 1em;
     margin: 0 auto;
     bottom: 7em;
   }
@@ -1230,7 +1231,11 @@ a.fn-item.active {
     }
 }
 
-
+@media only screen and (max-height: 680px) {
+    #social {
+        display: none;
+    }
+}
 
 @media only screen and (max-height: 550px) {
     #social {
@@ -1238,6 +1243,12 @@ a.fn-item.active {
     }
     h2.custom-logo-font.blog-description {
         display: none;
+    }
+    a.btn {
+        font-size: 20px;
+    }
+    #down-right {
+        bottom: -20px;
     }
 }
 
