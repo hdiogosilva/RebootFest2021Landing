@@ -491,6 +491,22 @@
 #footer-logo {
     max-width: 80%;
 }
+
+   /* ==========================================================================
+    Keynotes
+    ========================================================================== */
+   
+#keynote-speakers > section > p:nth-child(2) > img {
+    max-width: 15em;
+}
+
+#keynote-speakers > section > p:nth-child(5) > img {
+    max-width: 15em;
+}
+
+#keynote-speakers > section > p:nth-child(8) > img {
+    max-width: 15em;
+}
  
   /* ==========================================================================
     Logo

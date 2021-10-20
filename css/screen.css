@@ -387,7 +387,7 @@ table td {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #efefef;
+  /*border-top: 1px solid #efefef;*/
 }
 
 table th {
@@ -400,7 +400,8 @@ table colgroup + thead tr:first-child th,
 table colgroup + thead tr:first-child td,
 table thead:first-child tr:first-child th,
 table thead:first-child tr:first-child td {
-  border-top: 0;
+  /*border-top: 0;*/
+  border-top: 1px solid #efefef;
 }
 
 table tbody + tbody {
@@ -413,7 +414,7 @@ table table table {
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-  background-color: #f6f6f6;
+  /*background-color: #f6f6f6;*/
 }
 
 table.plain {
@@ -421,6 +422,10 @@ table.plain {
   tbody > tr:nth-child(odd) > th {
     background: transparent;
   }
+}
+
+td:first-child {
+    width: 150px;
 }
 
 li {
