@@ -507,6 +507,10 @@
 #keynote-speakers > section > p:nth-child(8) > img {
     max-width: 15em;
 }
+
+.noDeco {
+    text-decoration: auto;
+}
  
   /* ==========================================================================
     Logo

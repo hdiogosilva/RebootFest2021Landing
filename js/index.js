@@ -51,6 +51,11 @@ var $sitehead = $("#site-head");
     $(".post-title").each(function () {
       var t = $(this).text();
       var index = $(this).parents(".post-holder").index();
+      
+      if (t == "Agenda") {
+          $fnav.append("<a class='fn-item noDeco' href='https://www.eventbrite.pt/e/reboot-fest-2021-tickets-194312312357'>" + "REGISTRATION" + "</a>");
+      }
+      
       $fnav.append(
         "<a class='fn-item' item_index='" + index + "'>" + t + "</a>"
       );
