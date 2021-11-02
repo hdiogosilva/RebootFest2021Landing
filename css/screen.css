@@ -1060,8 +1060,11 @@ a.fn-item.active {
         width: 70%;
     }
     div#site-head-content {
-        top: -30px;
+        top: -50px;
         margin-bottom: 10px;
+    }
+    #site-head-content > h2 {
+        display: none;
     }
 }
 
@@ -1190,6 +1193,7 @@ a.fn-item.active {
     padding: 0px 0px 10px 0px;
     width: 100%;
     font-size: 1em;
+    display: grid;
   }
   
   #left-up {
@@ -1211,6 +1215,9 @@ a.fn-item.active {
     padding: 5px;
     margin: 5px;
   }
+  #site-head-content > h2 {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -1244,7 +1251,7 @@ a.fn-item.active {
     }
 }
 
-@media only screen and (max-height: 550px) {
+@media only screen and (max-height: 400px) {
     #social {
         display: none;
     }
@@ -1253,13 +1260,15 @@ a.fn-item.active {
     }
     a.btn {
         font-size: 20px;
+        margin-top: 0px;
+        padding: 0px;
     }
     #down-right {
-        bottom: -20px;
+        bottom: 0px;
     }
 }
 
-@media only screen and (max-height: 450px) {
+@media only screen and (max-height: 400px) {
     a.btn.site-menu.custom-font {
         display: none;
     }
