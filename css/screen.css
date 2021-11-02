@@ -1100,7 +1100,8 @@ a.fn-item.active {
     display: none;
   }
   a.btn {
-    margin-top: 10px;
+    margin-top: 0px;
+    padding: 0px;
   }
 
   .blog-title {
